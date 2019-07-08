@@ -1,0 +1,104 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="/static/css/bootstrap-treeview.min.css">
+<style>
+  img.demo {
+    max-width: 100%;
+    max-height: 88vh;
+    height: auto;
+  }
+</style>
+<link rel="stylesheet" href="/static/css/lightbox.css"></ink>
+{% endblock %}
+
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 id="headline">Ballot Test</h1>
+  <div class="row">
+    <div class="col-md-3">
+      <div id="tree"></div>
+    </div>
+    <!--
+    <div class="col-md-6" id="foo">
+      <ul class="nav nav-tabs">
+        <li class="nav-item active" id="processed_li">
+          <a class="nav-link active" id="processed-tab" data-toggle="tab" href="#processed" role="tab"
+            aria-controls="processed" aria-selected="true">Processed</a>
+        </li>
+        <li class="nav-item" id="raw_li">
+          <a class="nav-link" id="raw-tab" data-toggle="tab" href="#raw" role="tab" aria-controls="raw"
+            aria-selected="false">Raw</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane active fade in" id="processed" role="tabpanel" aria-labelledby="processed-tab">
+          <img id="imgHolder" src="">
+        </div>
+        <div class="tab-pane fade in" id="raw" role="tabpanel" aria-labelledby="raw-tab">
+          <img id="imgHolderRaw" src="">
+        </div>
+      </div>
+    </div>
+    -->
+    <!--
+    <div class="col-md-6 wrapper">
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#raw" data-toggle="pill", id= "raw_image">Raw</a></li>
+        <li><a href="#scored" data-toggle="pill", id= "scored_image">Scored</a></li>
+        <li><a href="#contest_options" data-toggle="pill", id= "contest_options_image">Contest Options</a></li>
+        <br>
+        <li><a href="#debug_phase1_candidate_lines" data-toggle="pill", id= "debug_phase1_candidate_lines_image">Phase 1 Candidage Lines</a></li>
+        <li><a href="#debug_phase2_candidate_lines" data-toggle="pill", id= "debug_phase2_candidate_lines_image">Phase 2 Candidage Lines</a></li>
+      </ul>
+      <div class="tab-pane active fade in" id="processed" role="tabpanel" aria-labelledby="processed-tab">
+          <img id="imgHolderRaw" src="">
+      </div>
+    </div>
+  -->
+    <div class="col-md-6">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="true" data-value="raw_image">
+          Raw
+          <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu1" id="imageChoices">
+          <li><a href="#raw" id="raw_image" data-value="raw_image">Raw</a></li>
+          <li><a href="#dewarped" id="dewarped_image" data-value="dewarped_image">De-warped</a></li>
+          <li><a href="#scored" id="scored_image" data-value="scored_image">Scored</a></li>
+          <li><a href="#style_image" id="debug_style_image" data-value="debug_style_image">Style Image</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#pass1_candidate_blocks_tight" id="pass1_candidate_blocks_tight" data-value="debug_pass1_candidate_blocks_tight">Pass 1 Candidate Blocks (Tight)</a></li>
+          <li><a href="#debug_phase1_candidate_lines" id="debug_phase1_candidate_lines_image" data-value="debug_phase1_candidate_lines_image">Phase 1 Candidage Lines</a></li>
+          <li><a href="#debug_phase2_candidate_lines" id="debug_phase2_candidate_lines_image">Phase 2 Candidage Lines</a></li>
+        </div>
+      </div>
+      <div class="tab-pane active fade in" id="processed" role="tabpanel" aria-labelledby="processed-tab">
+        <a id="imgHolderA" class="example-image-link" href="" data-lightbox="example-1"><img class="demo" id="imgHolder" src=""></a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <p id="jsonresults">
+        Some text goes here
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+<script src="/static/js/bootstrap-treeview.min.js"></script>
+<script src="/static/js/lightbox.js"></script>
+<script src="/static/js/my_app.js">
+</script>
+{% endblock %}

@@ -1,0 +1,138 @@
+[
+    {
+        "race_details": {
+            "Lisa Neubauer": {
+                "y": 19,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 20,
+                "x": 1
+            },
+            "Brian Hagedorn": {
+                "y": 18,
+                "x": 1
+            }
+        },
+        "race": "Justice of the Supreme Court",
+        "position": 1
+    },
+    {
+        "race_details": {
+            "Jennifer Nashold": {
+                "y": 24,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 25,
+                "x": 1
+            }
+        },
+        "race": "Court of Appeals Judge, District IV",
+        "position": 2
+    },
+    {
+        "race_details": {
+            "Rhonda L. Lanford": {
+                "y": 28,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 29,
+                "x": 1
+            }
+        },
+        "race": "Circuit Court Judge, Branch 16",
+        "position": 3
+    },
+    {
+        "race_details": {
+            "Satya Rhodes-Conway": {
+                "y": 34,
+                "x": 1
+            },
+            "Paul R. Soglin": {
+                "y": 33,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 35,
+                "x": 1
+            }
+        },
+        "race": "Mayor C Madison",
+        "position": 4
+    },
+    {
+        "race_details": {
+            "Lindsay Lemmer": {
+                "y": 38,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 40,
+                "x": 1
+            },
+            "Mike Cerro": {
+                "y": 39,
+                "x": 1
+            }
+        },
+        "race": "Alderperson, District 3",
+        "position": 5
+    },
+    {
+        "race_details": {
+            "Kaleem Caire": {
+                "y": 46,
+                "x": 1
+            },
+            "write-in:": {
+                "y": 47,
+                "x": 1
+            },
+            "Cristiana Carusi": {
+                "y": 45,
+                "x": 1
+            }
+        },
+        "race": "Madison Metropolitan School District Board Member Seat 3",
+        "position": 6
+    },
+    {
+        "race_details": {
+            "write-in:": {
+                "y": 12,
+                "x": 9
+            },
+            "David Blaska": {
+                "y": 11,
+                "x": 9
+            },
+            "Ali Janae Muldrow": {
+                "y": 10,
+                "x": 9
+            }
+        },
+        "race": "Madison Metropolitan School District Board Member Seat 4",
+        "position": 7
+    },
+    {
+        "race_details": {
+            "write-in:": {
+                "y": 18,
+                "x": 9
+            },
+            "Ananda Mirilli": {
+                "y": 17,
+                "x": 9
+            },
+            "TJ Mertz": {
+                "y": 16,
+                "x": 9
+            }
+        },
+        "race": "Madison Metropolitan School District Board Member Seat 5",
+        "position": 8
+    }
+]
